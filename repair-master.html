@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Сергей">
+    <meta name="description" content="Ремонт квартир от Сергея">
+    <meta name="keywords" content="ремонт квартир, ремонт, Сергей">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ремонт квартир</title>
+    <link rel="stylesheet" href="csspr/practic.css">
+</head>
+<body>
+
+    <!-- ШАПКА САЙТА -->
+    <header class="site-header">
+        <div class="header-container">
+            <div class="logo">Сергей</div>
+            <div class="contact-info">
+                <div class="phone">+7 123 456 7890</div>
+                <div class="schedule">Пн–Вс, 8:00–22:00</div>
+            </div>
+            <div class="btn-header">
+                <a href="#form-section" class="btn-request">Оставить заявку</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ОСНОВНОЕ СОДЕРЖИМОЕ -->
+    <main>
+        
+        <!-- ВЕРХНИЙ БЛОК: ЛЕВАЯ КОЛОНКА (Текст + Реклама) + ПРАВАЯ КОЛОНКА (Форма) -->
+        <div class="hero-section">
+            
+            <!-- Левая часть -->
+            <div class="hero-text">
+                <h1 class="hero-h1">Ремонт квартир в <span>Казани</span></h1>
+                <p class="hero-p1">Мастер приедет к вам домой в Казани. Проверит дом и согласует стоимость до начала ремонта. Время выезда уточним по телефону.</p>
+                
+                <!-- РЕКЛАМНЫЙ БЛОК (Теперь он внутри hero-text) -->
+                <div class="promo-box">
+                        <div>
+                        <p><b>Появились трещины стен, изношенные обои или пожелтел потолок?</b> Не живите в муках. Позвоните и сообщите, что случилось — поможем, уточним возможность срочного выезда в Казани.</p>
+                        </div>
+                        <div>
+                        <a href="tel:+71234567890" class="promo-link">Позвонить сейчас</a>
+                        </div>
+                </div>    
+            </div>
+
+            <!-- Правая часть -->
+            <div class="form-container" id="form-section">
+                <h3 class="input-h3">Вызвать мастера в Казани</h3>
+                <p class="input-p">Оставьте телефон — свяжемся с вами и согласуем выезд по вашему адресу в Казани.</p>
+                                <div class="input1">
+                <form action="" method="post" class="flex-form">
+                    <div class="element">
+                        <label for="name">Имя</label>
+                        <input type="text" name="username" id="name" placeholder="Как к вам обращаться">
+                    </div>
+                    
+                    <div class="element">
+                        <label for="phone">Номер телефона</label>
+                        <input type="tel" value="+7" name="phone" id="phone">
+                    </div>
+                    
+                    <div class="element">
+                        <label for="message">Что случилось</label>
+                        <textarea placeholder="Например: трещины на стенах" name="message" id="message"></textarea>
+                    </div>
+                    
+                    <div class="element button-element">
+                        <button type="submit" class="btn-submit">Отправить заявку</button>
+                        <p class="policy-text">Отправляя заявку, вы соглашаетесь на обработку персональных данных</p>
+                    </div>
+                </form>
+                </div>
+            </div>
+
+        </div> <!-- КОНЕЦ БЛОКА HERO-SECTION -->
+
+        <!-- БЛОК С ТАБЛИЦЕЙ -->
+        <section class="prices-section">
+            <table class="price-table">
+                <caption>Прайс-лист на ремонт</caption>
+                <thead>
+                    <tr>
+                        <th>Вид работ</th>
+                        <th>Что входит</th>
+                        <th>Цена (за м²)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Косметический ремонт</td>
+                        <td>Поклейка обоев, покраска потолка, замена плинтусов, укладка ламината.</td>
+                        <td>от 3 000 ₽</td>
+                    </tr>
+                    <tr>
+                        <td>Капитальный ремонт</td>
+                        <td>Демонтаж старых покрытий, выравнивание стен и полов, замена электрики и сантехники, финишная отделка.</td>
+                        <td>от 8 000 ₽</td>
+                    </tr>
+                    <tr>
+                        <td>Дизайнерский ремонт</td>
+                        <td>Разработка проекта, сложные конструкции (арки, ниши), элитные материалы, авторский надзор.</td>
+                        <td>от 15 000 ₽</td>
+                    </tr>
+                    <tr>
+                        <td>Ремонт санузла</td>
+                        <td>Гидроизоляция, укладка плитки, установка сантехники, вентиляция.</td>
+                        <td>от 45 000 ₽</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Точная стоимость рассчитывается после замера. Выезд бесплатный.</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <!-- БЛОК С ФОТО -->
+        <section class="gallery-section">
+            <h3 class="gallery-h3">Фото работ</h3>
+            <div class="gallery-grid">
+                <div class="gallery">
+                    <img src="https://avatars.mds.yandex.net/i?id=1792db276edc09e2e51040825d7b8d115d379c30-4076875-images-thumbs&n=13" alt="ремонт 1">
+                </div>
+                <div class="gallery">
+                    <img src="https://avatars.mds.yandex.net/i?id=1399272a0b11a66b406c74bb41f0a94f677bb7e3-16467665-images-thumbs&n=13" alt="ремонт 2">
+                </div>
+                <div class="gallery">
+                    <img src="https://avatars.mds.yandex.net/i?id=2ef5eef63c7c0e5dc0b50e9aebe08a78f0c92177-5498032-images-thumbs&n=13" alt="ремонт 3">
+                </div>
+                <div class="gallery">
+                    <img src="https://avatars.mds.yandex.net/i?id=15988ec95139283df237868b9b1c0c8d1bb9861c-4017639-images-thumbs&n=13" alt="ремонт 4">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html>

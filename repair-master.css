@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+body {
+    background-color: #121212;
+    color: #E0E0E0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.site-header {
+    background-color: #1E1E1E;
+    border-bottom: 1px solid #FFD700;
+    position: sticky;
+    top: 0;
+}
+.header-container {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 80px;
+}
+.logo {
+    background-color: red;
+    color: #FFF;
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    padding-left: 10px;
+}
+
+.phone {
+    font-size: 1.5em;
+}
+.btn-request {
+    background-color: #FFD700;
+    color: #121212;
+    border-radius: 20px;
+    padding: 20px;
+    text-decoration: none;
+}
+.btn-request:hover {
+    background-color: red;
+    color: #FFF;
+}
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+    gap: 130px;
+    align-items: baseline;
+    padding: 40px;
+}
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    height: 400px;
+    
+    
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+   width: 40%;
+   height: 500px;
+   border: 1px solid #FFD700;
+   padding: 10px;
+   border-radius: 40px;
+}
+.flex-form {
+     height: 350px;
+     display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.policy-text {
+    font-size: 0.7em;
+}
+.element {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
+}
+input, textarea {
+    padding: 15px; /* Чем больше число, тем выше будет поле */
+    background-color: #121212;
+    border: 1px solid #FFD700;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    width: 100%; /* Чтобы поля растянулись на всю ширину формы */
+}
+.btn-submit {
+    background-color: #FFD700;
+    color: #121212;
+    border-radius: 20px;
+    padding: 8px;
+}
+.btn-submit:hover {
+    background-color: red;
+    color: #FFF;
+}
+.input-h3 {
+    font-size: 1.5em;
+}
+.input-p {
+    font-size: 0.7em;
+    text-align: center;
+}
+.promo-box {
+    padding: 20px;
+    border: 1px solid #FFD700;
+    border-radius: 40px;
+}
+.hero-text h1 {
+    font-size: 2.8em;
+}
+.hero-p1 {
+    padding-bottom: 70px;
+}
+.hero-text span {
+    color: #FFD700;
+}
+.promo-link {
+    display: block;
+    background-color: #FFD700;
+    color: #121212;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.promo-link:hover {
+    background-color: red;
+    color: #FFF;
+}
+.button-element {
+    display: flex;
+    justify-content: flex-end;
+}
+.price-table {
+    width: 100%; /* Таблица на всю ширину блока */
+    max-width: 900px; /* Ограничитель, чтобы не растягивалась */
+    margin: 40px auto; /* Центрируем на странице */
+    border-collapse: collapse; /* УБИРАЕТ ДВОЙНЫЕ РАМКИ (обязательно!) */
+    background-color: #1E1E1E; /* Темный фон */
+    border: 1px solid #333; /* Тонкая общая рамка вокруг */
+    border-radius: 10px; /* Скругление углов */
+    overflow: hidden; /* Чтобы углы таблицы скруглились, а не торчали */
+}
+
+/* Заголовки таблицы */
+.price-table th {
+    background-color: #2A2A2A; /* Чуть светлее фона */
+    color: #FFD700; /* Золотой текст */
+    padding: 15px 20px;
+    text-align: left;
+    border-bottom: 2px solid #FFD700; /* Золотая линия под шапкой */
+    text-transform: uppercase; /* Заглавные буквы для солидности */
+    letter-spacing: 1px;
+}
+
+/* Ячейки с данными */
+.price-table td {
+    padding: 15px 20px;
+    border-bottom: 1px solid #333; /* Тонкие линии между строками */
+    color: #E0E0E0;
+}
+
+/* Эффект при наведении на строку */
+.price-table tbody tr:hover {
+    background-color: #252525; /* Подсвечиваем строку */
+}
+
+/* Последняя строка с итогом */
+.price-table tfoot td {
+    background-color: #111;
+    color: #888;
+    text-align: center;
+    font-style: italic;
+    border-bottom: none; /* Убираем нижнюю линию у подвала */
+}
+.price-table caption {
+    font-size: 2em;
+    padding: 20px;
+}
+.gallery-grid {
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    gap: 20px;
+}
+.gallery-h3 {
+    font-size: 2em;
+    text-align: center;
+}
+.gallery {
+    width: 45%;
+}
+img {
+    width: 100%;
+    border: 1px solid #FFD700;
+    border-radius: 20px;
+}
