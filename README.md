@@ -15,5 +15,5 @@
 - Галерея выполненных работ
 
 ## Как посмотреть
-- [Открыть index.html](https://github.com/insafhalilov0-lab/repair-master/blob/main/practic.html)
+- [Открыть practic.html](https://github.com/insafhalilov0-lab/repair-master/blob/main/practic.html)
 - [Открыть practic.css](https://github.com/insafhalilov0-lab/repair-master/blob/main/practic.css)
